@@ -1,0 +1,9 @@
+cd /Users/jiyekang/streamlit-dataset-tool/streamlit-dataset-tool
+
+# 최소 버전만 직접 적는 걸 추천 (너무 긴 pip freeze 말고)
+cat > requirements.txt <<EOF
+streamlit>=1.36.0
+pandas
+openpyxl
+Pillow
+EOF
