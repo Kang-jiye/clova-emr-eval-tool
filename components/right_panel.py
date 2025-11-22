@@ -34,7 +34,7 @@ def render_right_panel(container, idx: int, prev: Dict[str, Any], df):
             # 2) CLOVA Charty 결과 품질 평가
             with st.expander("2) CLOVA Charty 결과 품질 평가", expanded=True):
                 st.markdown(
-                    "<div class='muted'>좌측 패널의 <b>대화 스크립트 및 CLOVA Charty 생성 결과</b>를 참고하여, 각 항목을 1~5점으로 평가해주세요.</div>",
+                    "<div class='muted'>좌측 패널의 <b>CLOVA Charty 생성 결과</b>를 참고하여, 각 항목을 1~5점으로 평가해주세요.</div>",
                     unsafe_allow_html=True,
                 )
                 st.markdown("---")
